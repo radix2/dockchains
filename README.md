@@ -1,5 +1,7 @@
 ## Dockchains - Request For Comments
 
+>>This is a first dump and draft
+
 ### Background
 
 Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind Blockchain technology provides a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation.
@@ -37,14 +39,17 @@ and provide
 
 Note: All meta data would of course be maintained as magnet links. 
 
-
 ## Implementation Ideas
 
-### Source Code Repository
+### Smart Contracts
 
-For obvious reasons github.com is the sole contender here, at least as an aggregating hub. To simplify the design we might even have to trust them ;-) 
+The way our Docker Store works and operates should be enscribed in public and fully transparent Smart Contracts.  
 
-The unfortunately abandoned project https://github.com/gitchain/gitchain shares many of the same design goals.
+Note: Smart Contracts are just as efficient as digital [Panopticon](http://en.wikipedia.org/wiki/Panopticon) mechanisms - the mere knowledge of their existance and self-enforcing rules leads to compliance. 
+
+### Ledgers
+
+The crypto community is abuzz with competing proposals for side chains and side trees to remedy the inherent scalability issues of Bitcoin. Docker containers are simple digital assets like any other so we can take full advantage of the community solutions. We distinguish between different types of ledgers by the access rights assigned to them:
 
 ### Public Ledger
 
@@ -58,14 +63,11 @@ Medium term, the only stable blockchain seems to be Bitcoin why we propose a pro
 
 ### Private Ledgers
 
-The crypto community is abuzz with competing proposals for side chains and side trees to remedy the inherent scalability issues of Bitcoin. 
-Docker containers are simple digital assets like any other so we can take full advantage of the community solutions.
+A certain organization, cloud provider would for obvious reasons prefer to keep their metadata private. What is important is that protocols are the same and open.
 
-### Protected Ledgers
+### Protected (Shared) Ledgers
 
-Smart Contracts are an efficient Panopticon mechanism in that the mere knowledge of the stipulated rules makes participants comply. 
-
-This also means that 
+Once an anomaly of some sort has been detected, previously private ledgers can be selectively made available (by a contract or a multisig escrow mechanism) to a closed group of aribtrators, insurers or even made public. 
 
 
 ### Wallet
@@ -79,7 +81,13 @@ A non-exhaustive list (suggestions appreciated):
 
 ### Content Distribution
 
-BitTorrent
+BitTorrent is as natural a choice for binary images as is git for source.
+
+### Source Code Repository
+
+For obvious reasons github.com is the sole contender here, at least as an aggregating hub. To simplify the design we might even have to trust them ;-) 
+
+The unfortunately abandoned project https://github.com/gitchain/gitchain shares many of the same design goals. We should study and learn from the experiences made there and hopefully get the developer to join forces with us.
 
 ### Deterministic Build Process
 
@@ -89,10 +97,15 @@ The Codius Smart Contracts project is already developing Oracle technology based
 - Gitian - https://github.com/devrandom/gitian-builder
 
 We share the same need for a highly trusted build process so let’s join forces with them and make sure our Docker Build use case is provided for.
-Call to arms
 
-This project is and will always be Open Source and licensed as <link to license> and we invite and welcome you to our <link to github repository> 
+## Participate
 
+We will manage the backlog as [issues](https://github.com/dockchains/dockchains.github.io/issues), so chime in and let's build this thing!
+
+## License
+
+Copyright (c) 2014 [Rebaser AB](http://www.rebaser.com). See the [LICENSE](LICENSE.md) file for license rights and
+limitations (MIT).
 
 
 
