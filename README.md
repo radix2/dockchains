@@ -129,7 +129,9 @@ $ git mergetool
 
 Best explained [here](https://help.github.com/articles/using-pull-requests/)
 
-We will manage the backlog as [issues](https://github.com/dockchains/dockchains.github.io/issues), so chime in and let's build this thing!
+### Dev Process
+
+We will manage the backlog as plain and simple [issues](https://github.com/dockchains/dockchains.github.io/issues) in combination with the [wiki](https://github.com/dockchains/dockchains.github.io/wiki).
 
 ## License
 
