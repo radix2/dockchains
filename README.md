@@ -135,7 +135,7 @@ We will manage the backlog as plain and simple [issues](https://github.com/dockc
 
 ## License
 
-Copyright (c) 2014 [Rebaser AB](http://www.rebaser.com). See the [LICENSE](https://github.com/dockchains/dockchains.github.io/LICENSE.md) file for license rights and
+Copyright (c) 2014 [Rebaser AB](http://www.rebaser.com). See the [LICENSE](https://github.com/dockchains/dockchains.github.io/blob/master/LICENSE) file for license rights and
 limitations (MIT).
 
 
