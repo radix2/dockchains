@@ -1,6 +1,3 @@
-dockchains.github.io
-====================
-
 ## Dockchains - Request For Comments
 
 ### Background
@@ -11,13 +8,13 @@ Problem
 If you subscribe to the belief that Things are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges  
 
 - scalability 
-..-high bandwidth costs
-..-reliance on a single centralized point of failure
-..-centralized authority
+  -high bandwidth costs
+  -reliance on a single centralized point of failure
+  -centralized authority
 - data integrity and security
-..-authenticity
-..-publisher verification, reputation
-..-tamper resistance and evidence
+  -authenticity
+  -publisher verification, reputation
+  -tamper resistance and evidence
 
 ### Solution
 
@@ -54,9 +51,9 @@ Medium term, the only stable blockchain seems to be Bitcoin why we propose a pro
 
 - Counterparty - http://counterparty.io
 - Coloured Coins - http://coloredcoins.org
-..-ChromaWallet - http://chromawallet.com
-..-Coinprism - https://www.coinprism.com
-..-Iridis - https://github.com/owlen/iridis
+  -ChromaWallet - http://chromawallet.com
+  -Coinprism - https://www.coinprism.com
+  -Iridis - https://github.com/owlen/iridis
 
 ### Private Ledgers
 
