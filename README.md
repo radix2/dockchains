@@ -99,7 +99,35 @@ The Codius Smart Contracts project is already developing Oracle technology based
 
 We share the same need for a highly trusted build process so let’s join forces with them and make sure our Docker Build use case is provided for.
 
-## Participate
+## Participate/Contribute
+
+The first thing to slap into shape is this very document. Pull requests are eagerly requested.
+
+### Stay in sync
+
+Fork this repo, clone the fork, and add the original repo as a remote called `upstream`:
+
+```
+$ git clone https://github.com/username/dockchains.github.io.git
+$ cd dockchains.github.io
+$ git remote add upstream https://github.com/dockchains/dockchains.github.io.git
+```
+
+Pull from `upstream` frequently to keep your local copy up to date:
+
+```
+$ git pull upstream 
+```
+
+Now you might need to merge conflicting local changes. If you are IDE less:
+
+```
+$ git mergetool
+```
+
+### Pull request
+
+Best explained [here](https://help.github.com/articles/using-pull-requests/)
 
 We will manage the backlog as [issues](https://github.com/dockchains/dockchains.github.io/issues), so chime in and let's build this thing!
 
