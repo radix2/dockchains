@@ -7,14 +7,14 @@ Problem
 
 If you subscribe to the belief that Things are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges  
 
-- scalability 
-  -high bandwidth costs
-  -reliance on a single centralized point of failure
-  -centralized authority
+- scalability
+  - high bandwidth costs
+  - reliance on a single centralized point of failure
+  - centralized authority
 - data integrity and security
-  -authenticity
-  -publisher verification, reputation
-  -tamper resistance and evidence
+  - authenticity
+  - publisher verification, reputation
+  - tamper resistance and evidence
 
 ### Solution
 
@@ -22,10 +22,10 @@ We propose the establishment of a fully distributed Open Docker Store as a Publi
 
 It should be
 
-- owned by nobody
-- available to everybody
-- self-organizing
-- handling open, closed and everything in-between
+* owned by nobody
+* available to everybody
+* self-organizing
+* handling open, closed and everything in-between
 
 and provide
 
@@ -44,7 +44,8 @@ Note: All meta data would of course be maintained as magnet links.
 
 For obvious reasons github.com is the sole contender here, at least as an aggregating hub. To simplify the design we might even have to trust them ;-) 
 
-There are however alternatives of a true
+The unfortunately abandoned project https://github.com/gitchain/gitchain shares many of the same design goals.
+
 ### Public Ledger
 
 Medium term, the only stable blockchain seems to be Bitcoin why we propose a protocol built on top of Bitcoin for the Public Ledger:
