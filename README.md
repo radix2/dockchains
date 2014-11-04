@@ -1,8 +1,8 @@
-## Dockchains - Request For Comments
+# Dockchains - Request For Comments
 
 >>This is a first dump and draft
 
-### Background
+## Background
 
 Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind Blockchain technology provides a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation.
 Problem
@@ -18,7 +18,7 @@ If you subscribe to the belief that Things are better and more economically serv
   - publisher verification, reputation
   - tamper resistance and evidence
 
-### Solution
+## Solution
 
 We propose the establishment of a fully distributed Open Docker Store as a Public Good.
 
