@@ -1,1 +1,227 @@
-<h1>We are not done yet, <a href="https://github.com/dockchains/dockchains.github.io">go away!</a></h1>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Dockchains : Draft">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Dockchains</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dockchains">View on GitHub</a>
+
+          <h1 id="project_title">Dockchains</h1>
+          <h2 id="project_tagline">Draft</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="dockchains---request-for-comments" class="anchor" href="#dockchains---request-for-comments"><span class="octicon octicon-link"></span></a>Dockchains - Request For Comments</h1>
+
+<blockquote>
+<blockquote>
+<p>This is a first dump and draft</p>
+</blockquote>
+</blockquote>
+
+<h2>
+<a name="background" class="anchor" href="#background"><span class="octicon octicon-link"></span></a>Background</h2>
+
+<p>Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind Blockchain technology provides a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation.</p>
+
+<h2>
+<a name="problem" class="anchor" href="#problem"><span class="octicon octicon-link"></span></a>Problem</h2>
+
+<p>If you subscribe to the belief that Things are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges  </p>
+
+<ul>
+<li>scalability
+
+<ul>
+<li>high bandwidth costs</li>
+<li>reliance on a single centralized point of failure</li>
+<li>centralized authority</li>
+</ul>
+</li>
+<li>data integrity and security
+
+<ul>
+<li>authenticity</li>
+<li>publisher verification, reputation</li>
+<li>tamper resistance and evidence</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a name="solution" class="anchor" href="#solution"><span class="octicon octicon-link"></span></a>Solution</h2>
+
+<p>We propose the establishment of a fully distributed Open Docker Store as a Public Good.</p>
+
+<p>It should be</p>
+
+<ul>
+<li>owned by nobody</li>
+<li>available to everybody</li>
+<li>self-organizing</li>
+<li>handling open, closed and everything in-between</li>
+</ul>
+
+<p>and provide</p>
+
+<ul>
+<li>a searchable index pre-built binary docker containers</li>
+<li>produced by deterministic and auditable build process</li>
+<li>anti-fragility by design (battle hardened containers will float to the top)</li>
+<li>metrics (reputation scores, crash analytics)</li>
+<li>a social layer (contextual issues and crowd source help)</li>
+</ul>
+
+<p>Note: All meta data would of course be maintained as magnet links. </p>
+
+<h2>
+<a name="implementation-ideas" class="anchor" href="#implementation-ideas"><span class="octicon octicon-link"></span></a>Implementation Ideas</h2>
+
+<h3>
+<a name="smart-contracts" class="anchor" href="#smart-contracts"><span class="octicon octicon-link"></span></a>Smart Contracts</h3>
+
+<p>The way our Docker Store works and operates should be enscribed in public and fully transparent Smart Contracts.  </p>
+
+<p>Note: Smart Contracts are just as efficient as digital <a href="http://en.wikipedia.org/wiki/Panopticon">Panopticon</a> mechanisms - the mere knowledge of their existance and self-enforcing rules leads to compliance. </p>
+
+<h3>
+<a name="ledgers" class="anchor" href="#ledgers"><span class="octicon octicon-link"></span></a>Ledgers</h3>
+
+<p>The crypto community is abuzz with competing proposals for side chains and side trees to remedy the inherent scalability issues of Bitcoin. Docker containers are simple digital assets like any other so we can take full advantage of the community solutions. We distinguish between different types of ledgers by the access rights assigned to them:</p>
+
+<h3>
+<a name="public-ledger" class="anchor" href="#public-ledger"><span class="octicon octicon-link"></span></a>Public Ledger</h3>
+
+<p>Medium term, the only stable blockchain seems to be Bitcoin why we propose a protocol built on top of Bitcoin for the Public Ledger:</p>
+
+<ul>
+<li>Counterparty - <a href="http://counterparty.io">http://counterparty.io</a>
+</li>
+<li>Coloured Coins - <a href="http://coloredcoins.org">http://coloredcoins.org</a>
+-ChromaWallet - <a href="http://chromawallet.com">http://chromawallet.com</a>
+-Coinprism - <a href="https://www.coinprism.com">https://www.coinprism.com</a>
+-Iridis - <a href="https://github.com/owlen/iridis">https://github.com/owlen/iridis</a>
+</li>
+</ul>
+
+<h3>
+<a name="private-ledgers" class="anchor" href="#private-ledgers"><span class="octicon octicon-link"></span></a>Private Ledgers</h3>
+
+<p>A certain organization, cloud provider would for obvious reasons prefer to keep their metadata private. What is important is that protocols are the same and open.</p>
+
+<h3>
+<a name="protected-shared-ledgers" class="anchor" href="#protected-shared-ledgers"><span class="octicon octicon-link"></span></a>Protected (Shared) Ledgers</h3>
+
+<p>Once an anomaly of some sort has been detected, previously private ledgers can be selectively made available (by a contract or a multisig escrow mechanism) to a closed group of aribtrators, insurers or even made public. </p>
+
+<h3>
+<a name="wallet" class="anchor" href="#wallet"><span class="octicon octicon-link"></span></a>Wallet</h3>
+
+<p>Docker publishers will have to maintain their Docker Assets in a Wallet suitable for the protocol chosen.</p>
+
+<p>A non-exhaustive list (suggestions appreciated):</p>
+
+<ul>
+<li>Counterwallet - <a href="https://counterwallet.io">https://counterwallet.io</a>
+</li>
+<li>ChromaWallet - <a href="http://chromawallet.com">http://chromawallet.com</a>
+</li>
+</ul>
+
+<h3>
+<a name="content-distribution" class="anchor" href="#content-distribution"><span class="octicon octicon-link"></span></a>Content Distribution</h3>
+
+<p>BitTorrent is as natural a choice for binary images as is git for source.</p>
+
+<h3>
+<a name="source-code-repository" class="anchor" href="#source-code-repository"><span class="octicon octicon-link"></span></a>Source Code Repository</h3>
+
+<p>For obvious reasons github.com is the sole contender here, at least as an aggregating hub. To simplify the design we might even have to trust them ;-) </p>
+
+<p>The unfortunately abandoned project <a href="https://github.com/gitchain/gitchain">https://github.com/gitchain/gitchain</a> shares many of the same design goals. We should study and learn from the experiences made there and hopefully get the developer to join forces with us.</p>
+
+<h3>
+<a name="deterministic-build-process" class="anchor" href="#deterministic-build-process"><span class="octicon octicon-link"></span></a>Deterministic Build Process</h3>
+
+<p>The Codius Smart Contracts project is already developing Oracle technology based on </p>
+
+<ul>
+<li>Google Native Client - <a href="https://code.google.com/p/nativeclient/">https://code.google.com/p/nativeclient/</a>
+</li>
+<li>Gitian - <a href="https://github.com/devrandom/gitian-builder">https://github.com/devrandom/gitian-builder</a>
+</li>
+</ul>
+
+<p>We share the same need for a highly trusted build process so let’s join forces with them and make sure our Docker Build use case is provided for.</p>
+
+<h2>
+<a name="participatecontribute" class="anchor" href="#participatecontribute"><span class="octicon octicon-link"></span></a>Participate/Contribute</h2>
+
+<p>The first thing to slap into shape is this very document. Pull requests are eagerly requested.</p>
+
+<h3>
+<a name="stay-in-sync" class="anchor" href="#stay-in-sync"><span class="octicon octicon-link"></span></a>Stay in sync</h3>
+
+<p>Fork this repo, clone the fork, and add the original repo as a remote called <code>upstream</code>:</p>
+
+<pre><code>$ git clone https://github.com/username/dockchains.github.io.git
+$ cd dockchains.github.io
+$ git remote add upstream https://github.com/dockchains/dockchains.github.io.git
+</code></pre>
+
+<p>Pull from <code>upstream</code> frequently to keep your local copy up to date:</p>
+
+<pre><code>$ git pull upstream 
+</code></pre>
+
+<p>Now you might need to merge conflicting local changes. If you are IDE less:</p>
+
+<pre><code>$ git mergetool
+</code></pre>
+
+<h3>
+<a name="pull-request" class="anchor" href="#pull-request"><span class="octicon octicon-link"></span></a>Pull request</h3>
+
+<p>Best explained <a href="https://help.github.com/articles/using-pull-requests/">here</a></p>
+
+<h3>
+<a name="dev-process" class="anchor" href="#dev-process"><span class="octicon octicon-link"></span></a>Dev Process</h3>
+
+<p>We will manage the backlog as plain and simple <a href="https://github.com/dockchains/dockchains.github.io/issues">issues</a> in combination with the <a href="https://github.com/dockchains/dockchains.github.io/wiki">wiki</a>.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Copyright (c) 2014 <a href="http://www.rebaser.com">Rebaser AB</a>. See the <a href="LICENSE.md">LICENSE</a> file for license rights and
+limitations (MIT).</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
