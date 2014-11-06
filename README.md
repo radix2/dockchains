@@ -4,11 +4,11 @@
 
 ## Background
 
-Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind Blockchain technology provides a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation.
+Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind emerging Blockchain technologies are progressing towards a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation.
 
 ## Problem
 
-If you subscribe to the belief that Things are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges  
+If you subscribe to the belief that Things are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:
 
 - scalability
   - high bandwidth costs
@@ -38,7 +38,9 @@ and provide
 - metrics (reputation scores, crash analytics)
 - a social layer (contextual issues and crowd source help)
 
-Note: All meta data would of course be maintained as magnet links. 
+Note: All meta data would of course be maintained as magnet links.
+
+Note: To simplify things (and not require container consumers to have to participate in the financial aspects of cryptocurrency), we limit ourselves to many-to-many distribution of *free* pre-packaged containers. Most importantly this means that we limit the attack surface of the ecosystem (if consumers end up needing to actually hold currency, at least it should be in very limited amounts) and the attackers ROI.
 
 ## Implementation Ideas
 
@@ -50,13 +52,14 @@ Note: Smart Contracts are just as efficient as digital [Panopticon](http://en.wi
 
 ### Ledgers
 
-The crypto community is abuzz with competing proposals for side chains and side trees to remedy the inherent scalability issues of Bitcoin. Docker containers are simple digital assets like any other so we can take full advantage of the community solutions. We distinguish between different types of ledgers by the access rights assigned to them:
+The crypto community is abuzz with competing proposals for side chains and tree chains ([[1]](#ref1) to remedy the inherent scalability issues of Bitcoin. Docker containers are simple digital assets like any other so we can take full advantage of the community solutions. We distinguish between different types of ledgers by the access rights assigned to them:
 
 ### Public Ledger
 
 Medium term, the only stable blockchain seems to be Bitcoin why we propose a protocol built on top of Bitcoin for the Public Ledger:
 
 - Counterparty - http://counterparty.io
+- MasterCoin - http://www.mastercoin.org
 - Coloured Coins - http://coloredcoins.org
   -ChromaWallet - http://chromawallet.com
   -Coinprism - https://www.coinprism.com
@@ -70,7 +73,6 @@ A certain organization, cloud provider would for obvious reasons prefer to keep 
 
 Once an anomaly of some sort has been detected, previously private ledgers can be selectively made available (by a contract or a multisig escrow mechanism) to a closed group of aribtrators, insurers or even made public. 
 
-
 ### Wallet
 
 Docker publishers will have to maintain their Docker Assets in a Wallet suitable for the protocol chosen.
@@ -79,6 +81,7 @@ A non-exhaustive list (suggestions appreciated):
 
 - Counterwallet - https://counterwallet.io
 - ChromaWallet - http://chromawallet.com
+- other
 
 ### Content Distribution
 
@@ -133,14 +136,10 @@ Best explained [here](https://help.github.com/articles/using-pull-requests/)
 
 We will manage the backlog as plain and simple [issues](https://github.com/dockchains/dockchains.github.io/issues) in combination with the [wiki](https://github.com/dockchains/dockchains.github.io/wiki).
 
+## References
+
+<a name="ref1">[1]</a> Peter Todd on TreeChains - [Bitcoin-development mailing list post](http://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg04388.html)
 ## License
 
 Copyright (c) 2014 [Rebaser AB](http://www.rebaser.com). See the [LICENSE](https://github.com/dockchains/dockchains.github.io/blob/master/LICENSE) file for license rights and
 limitations (MIT).
-
-
-
-
-
-
-
