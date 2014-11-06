@@ -63,9 +63,9 @@ Medium term, the only stable blockchain seems to be Bitcoin why we propose a pro
 - Counterparty - http://counterparty.io
 - MasterCoin - http://www.mastercoin.org
 - Coloured Coins - http://coloredcoins.org
-  -ChromaWallet - http://chromawallet.com
-  -Coinprism - https://www.coinprism.com
-  -Iridis - https://github.com/owlen/iridis
+  - ChromaWallet - http://chromawallet.com
+  - Coinprism - https://www.coinprism.com
+  - Iridis - https://github.com/owlen/iridis
 
 ### Private Ledgers
 
