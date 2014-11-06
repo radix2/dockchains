@@ -144,6 +144,8 @@ We will manage the backlog as plain and simple [issues](https://github.com/dockc
 
 <a name="ref2">[2]</a> Codius Smart Contracts by Ripple Labs - [Project page](http://codius.org)
 
+<a name="ref3">[2]</a> The Idea of Smart Contracts by Nick Szabo - [Blog post](http://szabo.best.vwh.net/smart_contracts_idea.html)
+
 ## License
 
 Copyright (c) 2014 [Rebaser AB](http://www.rebaser.com). See the [LICENSE](https://github.com/dockchains/dockchains.github.io/blob/master/LICENSE) file for license rights and
