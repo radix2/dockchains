@@ -6,6 +6,8 @@
 
 Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind emerging Blockchain technologies are progressing towards a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation.
 
+>> Note: The implementation ideas below are highly preliminary, more of a collection of possibly relevant technologies and projects to be inspired by.
+
 ## Problem
 
 If you subscribe to the belief that Things are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:
@@ -139,6 +141,9 @@ We will manage the backlog as plain and simple [issues](https://github.com/dockc
 ## References
 
 <a name="ref1">[1]</a> Peter Todd on TreeChains - [Bitcoin-development mailing list post](http://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg04388.html)
+
+<a name="ref2">[2]</a> Codius Smart Contracts by Ripple Labs - [Project page](http://codius.org)
+
 ## License
 
 Copyright (c) 2014 [Rebaser AB](http://www.rebaser.com). See the [LICENSE](https://github.com/dockchains/dockchains.github.io/blob/master/LICENSE) file for license rights and
