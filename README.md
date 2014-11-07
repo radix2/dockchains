@@ -1,16 +1,16 @@
-# Dockchains - Request For Comments
+# Dockchains - RFC
 
 >>This is a first dump and draft
 
 ## Background
 
-Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind emerging Blockchain technologies are progressing towards a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation.
+Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind emerging Blockchain technologies are progressing towards a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation (but in the improbablity of collusion).
 
 >> Note: The implementation ideas below are highly preliminary, more of a collection of possibly relevant technologies and projects to be inspired by.
 
 ## Problem
 
-If you subscribe to the belief that Things are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:
+If you subscribe to the belief that "Things" are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:
 
 - scalability
   - high bandwidth costs
@@ -34,21 +34,39 @@ It should be
 
 and provide
 
-- a searchable index pre-built binary docker containers
-- produced by deterministic and auditable build process
+- a searchable index of pre-built binary docker containers
+- an auditable and deterministic build process
 - anti-fragility by design (battle hardened containers will float to the top)
 - metrics (reputation scores, crash analytics)
 - a social layer (contextual issues and crowd source help)
 
-Note: All meta data would of course be maintained as magnet links.
+Note: All meta data would of course also be maintained according to Named Data Networking principles.
 
-Note: To simplify things (and not require container consumers to have to participate in the financial aspects of cryptocurrency), we limit ourselves to many-to-many distribution of *free* pre-packaged containers. Most importantly this means that we limit the attack surface of the ecosystem (if consumers end up needing to actually hold currency, at least it should be in very limited amounts) and the attackers ROI.
+Note: To simplify things (and not require container consumers to have to participate in the financial aspects of cryptocurrency), we will initially limit ourselves to many-to-many distribution of almost *free* pre-packaged containers. Almost since you would still transact processing costs among the nodes. They are however free as in FOSS. Most importantly this means that we limit the attack surface of the ecosystem (since consumers end up needing to hold actual crypto currency, at least it should be in very limited amounts) and the attackers ROI.
 
 ## Implementation Ideas
 
-### Smart Contracts
+### Distributed Autonomous Corporation
 
-The way our Docker Store works and operates should be enscribed in public and fully transparent Smart Contracts.  
+Note: Not only decentralized but *distributed*, the distinction will be explained below.
+
+Stan Larimer of Invictus Corporation is one of the foremost proponents of the revival of Nick Szabos ideas and captures their defining qualities as
+
+- They are corporations – they are free and independent persons (but don’t have legal personality).
+- They are autonomous – once up to speed, they no longer need (or heed) their creators.
+- They are distributed – there are no central points of control or failure that can be attacked.
+- They are transparent – their books and business rules are auditable by all.
+- They are confidential – customer information is securely (and incorruptibly) protected.
+- They are trustworthy – because no interaction with them depends on trust.
+- They are fiduciaries – acting solely in their customers’ and shareholders’ interests.
+- They are self-regulating – they robotically obey their own rules.
+- They are incorruptible – no one can exercise seductive or coercive influence over them.
+- They are sovereign – over their digital resources (but don't have legal capacity).[5]
+
+
+### Smart Contracts [3](#ref13)
+
+As noted above, our Docker Store works and operates should be enscribed in public and fully transparent Smart Contracts.  
 
 Note: Smart Contracts are just as efficient as digital [Panopticon](http://en.wikipedia.org/wiki/Panopticon) mechanisms - the mere knowledge of their existance and self-enforcing rules leads to compliance. 
 
@@ -93,7 +111,7 @@ BitTorrent is as natural a choice for binary images as is git for source.
 
 For obvious reasons github.com is the sole contender here, at least as an aggregating hub. To simplify the design we might even have to trust them ;-) 
 
-The unfortunately abandoned project https://github.com/gitchain/gitchain shares many of the same design goals. We should study and learn from the experiences made there and hopefully get the developer to join forces with us.
+The unfortunately abandoned project https://github.com/gitchain/gitchain shares many of the same design goals as Project Dockchains. We should study and learn from the experiences made there and hopefully get the developer to join forces with us.
 
 ### Deterministic Build Process
 
@@ -144,7 +162,9 @@ We will manage the backlog as plain and simple [issues](https://github.com/dockc
 
 <a name="ref2">[2]</a> Codius Smart Contracts by Ripple Labs - [Project page](http://codius.org)
 
-<a name="ref3">[2]</a> The Idea of Smart Contracts by Nick Szabo - [Blog post](http://szabo.best.vwh.net/smart_contracts_idea.html)
+<a name="ref3">[3]</a> The Idea of Smart Contracts by Nick Szabo - [Blog post](http://szabo.best.vwh.net/smart_contracts_idea.html)
+
+<a name="ref4">[4]</a> DAOs, DACs, DAs and More: An Incomplete Terminology Guide, Vitalik Buterin, Ethereum.org [Blog post](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/)
 
 ## License
 
