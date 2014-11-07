@@ -8,6 +8,8 @@ Docker containerisation is quickly becoming the preferred de facto software deli
 
 >> Note: The implementation ideas below are highly preliminary, more of a collection of possibly relevant technologies and projects to be inspired by.
 
+While the problems and solutions outlined below are universal we believe that the right place to start is in among the alpha geeks in the developer community. The emerging design patterns and templates can serve as a foundation, i.e a platform for other verticals until we have pushed these technologies into the internet protocol stack.
+
 ## Problem
 
 If you subscribe to the belief that "Things" are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:
