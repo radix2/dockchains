@@ -4,7 +4,7 @@
 
 ## Background
 
-Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind emerging Blockchain technologies are progressing towards a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation (but in the improbablity of collusion).
+Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind emerging Blockchain technologies are progressing towards acceptance as universally undisputed public transaction ledgers, not requiring trust in any one individual or organisation (but to some extent in the improbablity of collusion).
 
 >> Note: The implementation ideas below are highly preliminary, more of a collection of possibly relevant technologies and projects to be inspired by.
 
@@ -39,6 +39,7 @@ and provide
 - a searchable index of pre-built binary docker containers
 - an auditable and deterministic build process
 - anti-fragility by design (battle hardened containers will float to the top)
+- a publisher identity system
 - metrics (reputation scores, crash analytics)
 - a social layer (contextual issues and crowd source help)
 
@@ -65,9 +66,17 @@ Stan Larimer of Invictus Corporation is one of the foremost proponents of the re
 - They are incorruptible – no one can exercise seductive or coercive influence over them.
 - They are sovereign – over their digital resources (but don't have legal capacity).[5]
 
+### Identity
 
-### Smart Contracts [3](#ref13)
+Before entering into smart contracts as peers we need to establish an identity system on which to base them. Identity is just metadata and does not apply only to people but organizations and any data. Several interesting initiatives based on crypto and different degrees of decentralization have been proposed:  
 
+- tbd
+- tbd
+- Chris Ellis - The World Citizenship project [5](#ref5)
+
+### Smart Contracts 
+
+Read more - [3](#ref3)
 As noted above, our Docker Store works and operates should be enscribed in public and fully transparent Smart Contracts.  
 
 Note: Smart Contracts are just as efficient as digital [Panopticon](http://en.wikipedia.org/wiki/Panopticon) mechanisms - the mere knowledge of their existance and self-enforcing rules leads to compliance. 
@@ -160,13 +169,15 @@ We will manage the backlog as plain and simple [issues](https://github.com/dockc
 
 ## References
 
-<a name="ref1">[1]</a> Peter Todd on TreeChains - [Bitcoin-development mailing list post](http://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg04388.html)
+<a name="ref1">[1]</a> TreeChains, Peter Todd  - [Bitcoin-development mailing list post](http://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg04388.html)
 
-<a name="ref2">[2]</a> Codius Smart Contracts by Ripple Labs - [Project page](http://codius.org)
+<a name="ref2">[2]</a> Codius Smart Contracts, Ripple Labs - [Project page](http://codius.org)
 
-<a name="ref3">[3]</a> The Idea of Smart Contracts by Nick Szabo - [Blog post](http://szabo.best.vwh.net/smart_contracts_idea.html)
+<a name="ref3">[3]</a> The Idea of Smart Contracts, Nick Szabo - [Blog post](http://szabo.best.vwh.net/smart_contracts_idea.html)
 
 <a name="ref4">[4]</a> DAOs, DACs, DAs and More: An Incomplete Terminology Guide, Vitalik Buterin, Ethereum.org [Blog post](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/)
+
+<a name="ref5">[5]</a> World Citizenship, Chris Ellis - [Github repo](https://github.com/MrChrisJ/World-Citizenship)
 
 ## License
 
