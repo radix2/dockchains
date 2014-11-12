@@ -28,7 +28,7 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a id="dockchains---request-for-comments" class="anchor" href="#dockchains---request-for-comments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dockchains - Request For Comments</h1>
+<a id="dockchains---rfc" class="anchor" href="#dockchains---rfc" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dockchains - RFC</h1>
 
 <blockquote>
 <blockquote>
@@ -39,12 +39,20 @@
 <h2>
 <a id="background" class="anchor" href="#background" aria-hidden="true"><span class="octicon octicon-link"></span></a>Background</h2>
 
-<p>Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind Blockchain technology provides a universal undisputed public transaction ledger, not requiring trust in any one individual or organisation.</p>
+<p>Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind emerging Blockchain technologies are progressing towards acceptance as universally undisputed public transaction ledgers, not requiring trust in any one individual or organisation (but to some extent in the improbablity of collusion).</p>
+
+<blockquote>
+<blockquote>
+<p>Note: The implementation ideas below are highly preliminary, more of a collection of possibly relevant technologies and projects to be inspired by.</p>
+</blockquote>
+</blockquote>
+
+<p>While the problems and solutions outlined below are universal we believe that the right place to start is in among the alpha geeks in the developer community. The emerging design patterns and templates can serve as a foundation, i.e a platform for other verticals until we have pushed these technologies into the internet protocol stack.</p>
 
 <h2>
 <a id="problem" class="anchor" href="#problem" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem</h2>
 
-<p>If you subscribe to the belief that Things are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges  </p>
+<p>If you subscribe to the belief that "Things" are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:</p>
 
 <ul>
 <li>scalability
@@ -82,29 +90,65 @@
 <p>and provide</p>
 
 <ul>
-<li>a searchable index pre-built binary docker containers</li>
-<li>produced by deterministic and auditable build process</li>
+<li>a searchable index of pre-built binary docker containers</li>
+<li>an auditable and deterministic build process</li>
 <li>anti-fragility by design (battle hardened containers will float to the top)</li>
+<li>a publisher identity system</li>
 <li>metrics (reputation scores, crash analytics)</li>
 <li>a social layer (contextual issues and crowd source help)</li>
 </ul>
 
-<p>Note: All meta data would of course be maintained as magnet links. </p>
+<p>Note: All meta data would of course also be maintained according to Named Data Networking principles.</p>
+
+<p>Note: To simplify things (and not require container consumers to have to participate in the financial aspects of cryptocurrency), we will initially limit ourselves to many-to-many distribution of almost <em>free</em> pre-packaged containers. Almost since you would still transact processing costs among the nodes. They are however free as in FOSS. Most importantly this means that we limit the attack surface of the ecosystem (since consumers end up needing to hold actual crypto currency, at least it should be in very limited amounts) and the attackers ROI.</p>
 
 <h2>
 <a id="implementation-ideas" class="anchor" href="#implementation-ideas" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implementation Ideas</h2>
 
 <h3>
+<a id="distributed-autonomous-corporation" class="anchor" href="#distributed-autonomous-corporation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Distributed Autonomous Corporation</h3>
+
+<p>Note: Not only decentralized but <em>distributed</em>, the distinction will be explained below.</p>
+
+<p>Stan Larimer of Invictus Corporation is one of the foremost proponents of the revival of Nick Szabos ideas and captures their defining qualities as</p>
+
+<ul>
+<li>They are corporations – they are free and independent persons (but don’t have legal personality).</li>
+<li>They are autonomous – once up to speed, they no longer need (or heed) their creators.</li>
+<li>They are distributed – there are no central points of control or failure that can be attacked.</li>
+<li>They are transparent – their books and business rules are auditable by all.</li>
+<li>They are confidential – customer information is securely (and incorruptibly) protected.</li>
+<li>They are trustworthy – because no interaction with them depends on trust.</li>
+<li>They are fiduciaries – acting solely in their customers’ and shareholders’ interests.</li>
+<li>They are self-regulating – they robotically obey their own rules.</li>
+<li>They are incorruptible – no one can exercise seductive or coercive influence over them.</li>
+<li>They are sovereign – over their digital resources (but don't have legal capacity).[5]</li>
+</ul>
+
+<h3>
+<a id="identity" class="anchor" href="#identity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Identity</h3>
+
+<p>Before entering into smart contracts as peers we need to establish an identity system on which to base them. Identity is just metadata and does not apply only to people but organizations and any data. Several interesting initiatives based on crypto and different degrees of decentralization have been proposed:  </p>
+
+<ul>
+<li>tbd</li>
+<li>tbd</li>
+<li>Chris Ellis - The World Citizenship project <a href="#ref5">5</a>
+</li>
+</ul>
+
+<h3>
 <a id="smart-contracts" class="anchor" href="#smart-contracts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Smart Contracts</h3>
 
-<p>The way our Docker Store works and operates should be enscribed in public and fully transparent Smart Contracts.  </p>
+<p>Read more - <a href="#ref3">3</a>
+As noted above, our Docker Store works and operates should be enscribed in public and fully transparent Smart Contracts.  </p>
 
 <p>Note: Smart Contracts are just as efficient as digital <a href="http://en.wikipedia.org/wiki/Panopticon">Panopticon</a> mechanisms - the mere knowledge of their existance and self-enforcing rules leads to compliance. </p>
 
 <h3>
 <a id="ledgers" class="anchor" href="#ledgers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ledgers</h3>
 
-<p>The crypto community is abuzz with competing proposals for side chains and side trees to remedy the inherent scalability issues of Bitcoin. Docker containers are simple digital assets like any other so we can take full advantage of the community solutions. We distinguish between different types of ledgers by the access rights assigned to them:</p>
+<p>The crypto community is abuzz with competing proposals for side chains and tree chains (<a href="#ref1">[1]</a> to remedy the inherent scalability issues of Bitcoin. Docker containers are simple digital assets like any other so we can take full advantage of the community solutions. We distinguish between different types of ledgers by the access rights assigned to them:</p>
 
 <h3>
 <a id="public-ledger" class="anchor" href="#public-ledger" aria-hidden="true"><span class="octicon octicon-link"></span></a>Public Ledger</h3>
@@ -114,10 +158,18 @@
 <ul>
 <li>Counterparty - <a href="http://counterparty.io">http://counterparty.io</a>
 </li>
+<li>MasterCoin - <a href="http://www.mastercoin.org">http://www.mastercoin.org</a>
+</li>
 <li>Coloured Coins - <a href="http://coloredcoins.org">http://coloredcoins.org</a>
--ChromaWallet - <a href="http://chromawallet.com">http://chromawallet.com</a>
--Coinprism - <a href="https://www.coinprism.com">https://www.coinprism.com</a>
--Iridis - <a href="https://github.com/owlen/iridis">https://github.com/owlen/iridis</a>
+
+<ul>
+<li>ChromaWallet - <a href="http://chromawallet.com">http://chromawallet.com</a>
+</li>
+<li>Coinprism - <a href="https://www.coinprism.com">https://www.coinprism.com</a>
+</li>
+<li>Iridis - <a href="https://github.com/owlen/iridis">https://github.com/owlen/iridis</a>
+</li>
+</ul>
 </li>
 </ul>
 
@@ -143,6 +195,7 @@
 </li>
 <li>ChromaWallet - <a href="http://chromawallet.com">http://chromawallet.com</a>
 </li>
+<li>other</li>
 </ul>
 
 <h3>
@@ -155,7 +208,7 @@
 
 <p>For obvious reasons github.com is the sole contender here, at least as an aggregating hub. To simplify the design we might even have to trust them ;-) </p>
 
-<p>The unfortunately abandoned project <a href="https://github.com/gitchain/gitchain">https://github.com/gitchain/gitchain</a> shares many of the same design goals. We should study and learn from the experiences made there and hopefully get the developer to join forces with us.</p>
+<p>The unfortunately abandoned project <a href="https://github.com/gitchain/gitchain">https://github.com/gitchain/gitchain</a> shares many of the same design goals as Project Dockchains. We should study and learn from the experiences made there and hopefully get the developer to join forces with us.</p>
 
 <h3>
 <a id="deterministic-build-process" class="anchor" href="#deterministic-build-process" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deterministic Build Process</h3>
@@ -207,9 +260,22 @@ $ git remote add upstream https://github.com/dockchains/dockchains.github.io.git
 <p>We will manage the backlog as plain and simple <a href="https://github.com/dockchains/dockchains.github.io/issues">issues</a> in combination with the <a href="https://github.com/dockchains/dockchains.github.io/wiki">wiki</a>.</p>
 
 <h2>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p><a name="ref1">[1]</a> TreeChains, Peter Todd  - <a href="http://www.mail-archive.com/bitcoin-development@lists.sourceforge.net/msg04388.html">Bitcoin-development mailing list post</a></p>
+
+<p><a name="ref2">[2]</a> Codius Smart Contracts, Ripple Labs - <a href="http://codius.org">Project page</a></p>
+
+<p><a name="ref3">[3]</a> The Idea of Smart Contracts, Nick Szabo - <a href="http://szabo.best.vwh.net/smart_contracts_idea.html">Blog post</a></p>
+
+<p><a name="ref4">[4]</a> DAOs, DACs, DAs and More: An Incomplete Terminology Guide, Vitalik Buterin, Ethereum.org <a href="https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/">Blog post</a></p>
+
+<p><a name="ref5">[5]</a> World Citizenship, Chris Ellis - <a href="https://github.com/MrChrisJ/World-Citizenship">Github repo</a></p>
+
+<h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
-<p>Copyright (c) 2014 <a href="http://www.rebaser.com">Rebaser AB</a>. See the <a href="https://github.com/dockchains/dockchains.github.io/LICENSE.md">LICENSE</a> file for license rights and
+<p>Copyright (c) 2014 <a href="http://www.rebaser.com">Rebaser AB</a>. See the <a href="https://github.com/dockchains/dockchains.github.io/blob/master/LICENSE">LICENSE</a> file for license rights and
 limitations (MIT).</p>
       </section>
     </div>
