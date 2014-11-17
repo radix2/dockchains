@@ -12,7 +12,7 @@ While the problems and solutions outlined below are universal we believe that th
 
 ## Problem
 
-If you subscribe to the belief that "Things" are better and more economically served by general purpose SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:
+If you subscribe to the belief that "Things" are better and more economically served by general purpose programmable SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:
 
 - scalability
   - high bandwidth costs
@@ -32,7 +32,7 @@ It should be
 * owned by nobody
 * available to everybody
 * self-organizing
-* handling open, closed and everything in-between
+* handling open source, closed and everything in-between
 
 and provide
 
@@ -73,6 +73,8 @@ Before entering into smart contracts as peers we need to establish an identity s
 - tbd
 - tbd
 - Chris Ellis - The World Citizenship project [5](#ref5)
+
+Identity is not only a valuable scarce object but "uniquely unique", and it's value therefor asymptotically infinite. Yet, until now there has been no viable identity protocol layer for the Internet. Due to the challenges involved in maintaining a Public Key Infrastructure (the challenge lies in enabling the general public (pun unintended) to hold and protect their private keys in a secure and scalable way). Instead we have had to exchange our most valuable asset, that which defines us, for communication services. It is not only easier to centralize identity managment, it's also a very nice and lucrative business model. Not only is this a bad idea in the first place but in the name of convenience we have had to sacrifice security (relying mostly upon simple username/password credentials).
 
 ### Smart Contracts 
 
