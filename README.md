@@ -1,18 +1,18 @@
 # Dockchains - RFC
 
->>This is a first dump and draft
-
 ## Background
 
 Docker containerisation is quickly becoming the preferred de facto software delivery mechanism and for the first time in the history of mankind emerging Blockchain technologies are progressing towards acceptance as universally undisputed public transaction ledgers, not requiring trust in any one individual or organisation (but to some extent in the improbablity of collusion).
 
 >> Note: The implementation ideas below are highly preliminary, more of a collection of possibly relevant technologies and projects to be inspired by.
 
-While the problems and solutions outlined below are universal we believe that the right place to start is in among the alpha geeks in the developer community. The emerging design patterns and templates can serve as a foundation, i.e a platform for other verticals until we have pushed these technologies into the internet protocol stack.
+While the problems and solutions outlined below are universal we believe that the right place to start is amongst the alpha geeks in the developer community. The design patterns emerging here will serve as a foundation aka platform for a redesign of the internet.
 
 ## Problem
 
-If you subscribe to the belief that "Things" are better and more economically served by general purpose programmable SoCs (System on Chip) rather than custom designed circuitry it is not far-fetched to believe that Dockers will soon break the confines of the data center cloud and spread as fog to the edges. In any case, we will soon be facing some of the following challenges:
+If you subscribe to the belief that "Things" will be built using general purpose programmable SoCs (System on Chip) rather than custom designed processors or sensors they will easily be powerful enough to run lightweight versions of Linux and by extension Docker containers. 
+
+The Internet of Everything will soon be facing some of the following challenges:
 
 - scalability
   - high bandwidth costs
@@ -45,8 +45,6 @@ and provide
 
 Note: All meta data would of course also be maintained according to Named Data Networking principles.
 
-Note: To simplify things (and not require container consumers to have to participate in the financial aspects of cryptocurrency), we will initially limit ourselves to many-to-many distribution of almost *free* pre-packaged containers. Almost since you would still transact processing costs among the nodes. They are however free as in FOSS. Most importantly this means that we limit the attack surface of the ecosystem (since consumers end up needing to hold actual crypto currency, at least it should be in very limited amounts) and the attackers ROI.
-
 ## Implementation Ideas
 
 ### Distributed Autonomous Corporation
@@ -70,16 +68,16 @@ Stan Larimer of Invictus Corporation is one of the foremost proponents of the re
 
 Before entering into smart contracts as peers we need to establish an identity system on which to base them. Identity is just metadata and does not apply only to people but organizations and any data. Several interesting initiatives based on crypto and different degrees of decentralization have been proposed:  
 
-- tbd
-- tbd
+- [onename.com](http://onename.com) 
+- [namecoin](http://namecoin.info)
 - Chris Ellis - The World Citizenship project [5](#ref5)
 
-Identity is not only a valuable scarce object but "uniquely unique", and it's value therefor asymptotically infinite. Yet, until now there has been no viable identity protocol layer for the Internet. Due to the challenges involved in maintaining a Public Key Infrastructure (the challenge lies in enabling the general public (pun unintended) to hold and protect their private keys in a secure and scalable way). Instead we have had to exchange our most valuable asset, that which defines us, for communication services. It is not only easier to centralize identity managment, it's also a very nice and lucrative business model. Not only is this a bad idea in the first place but in the name of convenience we have had to sacrifice security (relying mostly upon simple username/password credentials).
+Identity is not only a valuable scarce object but "uniquely unique", and it's value therefor asymptotically infinite. Yet, until now there has been no viable identity protocol layer for the Internet. Due to the challenges involved in maintaining a Public Key Infrastructure (the challenge lies in enabling the general public (pun unintended) to hold and protect their private keys in a secure and scalable way). Instead we have had to exchange our most valuable asset, that which defines us, for communication services. It is not only easier to centralize identity managment, it's also a simple and lucrative business model. Not only is this a bad idea in the first place but in the name of convenience we have had to sacrifice security (relying mostly upon simple username/password credentials).
 
 ### Smart Contracts 
 
 Read more - [3](#ref3)
-As noted above, our Docker Store works and operates should be enscribed in public and fully transparent Smart Contracts.  
+As noted above, the rules for how our Docker Store works and operates should be enscribed in a Smart Contract.  
 
 Note: Smart Contracts are just as efficient as digital [Panopticon](http://en.wikipedia.org/wiki/Panopticon) mechanisms - the mere knowledge of their existance and self-enforcing rules leads to compliance. 
 
@@ -89,7 +87,7 @@ The crypto community is abuzz with competing proposals for side chains and tree 
 
 ### Public Ledger
 
-Medium term, the only stable blockchain seems to be Bitcoin why we propose a protocol built on top of Bitcoin for the Public Ledger:
+There is an abundance of competing blockchain designs
 
 - Counterparty - http://counterparty.io
 - MasterCoin - http://www.mastercoin.org
@@ -100,11 +98,11 @@ Medium term, the only stable blockchain seems to be Bitcoin why we propose a pro
 
 ### Private Ledgers
 
-A certain organization, cloud provider would for obvious reasons prefer to keep their metadata private. What is important is that protocols are the same and open.
+A certain organization, cloud provider would for obvious reasons prefer to keep their metadata private. What is important is that the protocols are the same and open.
 
 ### Protected (Shared) Ledgers
 
-Once an anomaly of some sort has been detected, previously private ledgers can be selectively made available (by a contract or a multisig escrow mechanism) to a closed group of aribtrators, insurers or even made public. 
+Once an anomaly of some sort has been detected, previously private ledgers can be selectively made available (by a contract or a multisig escrow mechanism) to a closed group of arbibtrators, insurers or even made public. 
 
 ### Wallet
 
@@ -118,13 +116,13 @@ A non-exhaustive list (suggestions appreciated):
 
 ### Content Distribution
 
-BitTorrent is as natural a choice for binary images as is git for source.
+BitTorrent and maybe even the proprietary but free BitTorrent Sync product would be as natural a choice for binary images as is git for source.
 
 ### Source Code Repository
 
-For obvious reasons github.com is the sole contender here, at least as an aggregating hub. To simplify the design we might even have to trust them ;-) 
+For obvious reasons github.com (or one of it's clones) is the sole contender here, at least as an aggregating hub. To simplify the design we might even have to trust them ;-) 
 
-The unfortunately abandoned project https://github.com/gitchain/gitchain shares many of the same design goals as Project Dockchains. We should study and learn from the experiences made there and hopefully get the developer to join forces with us.
+The unfortunately abandoned project https://github.com/gitchain/gitchain shares many of the same design goals as Project Dockchains. We should study and learn from the experiences made there.
 
 ### Deterministic Build Process
 
@@ -144,9 +142,9 @@ The first thing to slap into shape is this very document. Pull requests are eage
 Fork this repo, clone the fork, and add the original repo as a remote called `upstream`:
 
 ```
-$ git clone https://github.com/username/dockchains.github.io.git
-$ cd dockchains.github.io
-$ git remote add upstream https://github.com/dockchains/dockchains.github.io.git
+$ git clone https://github.com/radix2/dockchains.git
+$ cd dockchains
+$ git remote add upstream https://github.com/radix2/dockchains.git
 ```
 
 Pull from `upstream` frequently to keep your local copy up to date:
